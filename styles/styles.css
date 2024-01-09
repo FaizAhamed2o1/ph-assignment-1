@@ -7,6 +7,13 @@
 
 body {
   font-family: "Inter", sans-serif;
+  background-color: #fff;
+}
+
+hr {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: none;
 }
 
 .merriweather {
@@ -109,8 +116,20 @@ main .all-categories {
 }
 
 .midnight-party-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.midnight-party-container .welcome-text {
   width: 700px;
   padding: 126px 0 0 126px;
+}
+
+.midnight-party-container .welcome-image {
+  width: 700px;
+  padding: 70px;
+  display: flex;
+  justify-content: center;
 }
 
 .midnight-party-container h3 {
@@ -222,3 +241,199 @@ main .all-categories {
 }
 
 /* ? holidays sale styles */
+.holidays-sale {
+  margin: 0 auto 120px;
+}
+
+.holidays-sale .sale-description {
+  text-align: center;
+}
+
+.sale-description {
+  width: 1068px;
+  margin: 0 auto;
+}
+
+.sale-description h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.sale-description h2 {
+  font-size: 72px;
+  text-transform: capitalize;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+
+.sale-description p {
+  margin-bottom: 64px;
+}
+
+.sale-images {
+  position: relative;
+}
+
+.sale-images .voucher-girl-wrapper {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  position: relative;
+}
+
+.voucher-girl-wrapper .voucher-sticker {
+  position: absolute;
+  right: 285px;
+  bottom: 50px;
+}
+
+.sale-images .giftbox-wrapper {
+  height: 230px;
+  background-color: #f00;
+  border-radius: 16px 0 16px 16px;
+}
+
+.giftbox-wrapper .giftbox {
+  position: absolute;
+  top: 0;
+}
+
+/* ? portfolio styles*/
+.portfolio {
+  margin: 0 auto 120px;
+}
+
+.portfolio .portfolio-description {
+  width: 900px;
+  margin-bottom: 48px;
+}
+
+.portfolio-description h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.portfolio-description h2 {
+  text-transform: capitalize;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+
+.portfolio .portfolio-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-images .image-wrapper {
+  border-radius: 16px;
+  width: 424px;
+  height: 450px;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  transition: transform 0.5s ease;
+}
+
+.image-wrapper:hover img {
+  transform: scale(1.2);
+}
+
+/* ? newsletter styles */
+.newsletter {
+  margin: 0 auto 120px;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+  padding: 80px 212px;
+}
+
+.newsletter .mail-image {
+  height: 150px;
+  width: 150px;
+  margin: 0 auto 40px;
+}
+
+.newsletter h2 {
+  text-transform: capitalize;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+
+.newsletter p {
+  margin-bottom: 48px;
+}
+
+.newsletter form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 650px;
+  margin: 0 auto;
+}
+
+form input[type="email"] {
+  font-size: 18px;
+  border: none;
+  padding: 25px 30px;
+  width: 440px;
+  border-radius: 50px 0 0 50px;
+}
+
+form input[type="submit"] {
+  font-size: 20px;
+  background-color: #f00;
+  border: none;
+  color: white;
+  padding: 24px 56px;
+  border-radius: 0 50px 50px 0;
+}
+
+/* ? footer styles */
+footer {
+  background-color: #070211;
+  padding: 120px;
+  color: white;
+}
+
+.footer-container {
+  margin: 0 auto;
+  width: 1320px;
+  font-size: 24px;
+}
+
+.footer-container .footer-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.contact {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.footer-mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 50px 0;
+}
+
+.footer-bottom {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
